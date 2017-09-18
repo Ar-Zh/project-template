@@ -48,13 +48,7 @@ gulp.task('watch', () => {
                 stats
             };
         });
-    gulp.watch('frontend/**/*.less', gulp.series('less'))
-        .on('all', (event, filepath, stats) => {
-            global.emittyChangedFile = {
-                path: filepath,
-                stats
-            };
-        });
+    gulp.watch('frontend/**/*.less', gulp.series('less'));
     gulp.watch('frontend/images/*.{svg,png,jpeg,jpg}', gulp.series('images'))
         .on('unlink', function(filepath) {
         remember.forget('images', path.resolve(filepath));
