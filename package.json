@@ -1,0 +1,30 @@
+{
+  "name": "project-template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Ar-Zh/project-template.git",
+  "author": "Ar Zh <job.ar.zh@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "gulp": "./node_modules/.bin/gulp"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "browser-sync": "^2.18.13",
+    "del": "^3.0.0",
+    "emitty": "^1.4.0",
+    "gulp": "gulpjs/gulp#4.0",
+    "gulp-cached": "^1.1.1",
+    "gulp-if": "^2.0.2",
+    "gulp-less": "^3.3.2",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-notify": "^3.0.0",
+    "gulp-pug": "^3.3.0",
+    "gulp-remember": "^0.3.1",
+    "gulp-sourcemaps": "^2.6.1",
+    "less-plugin-autoprefix": "^1.5.1",
+    "mkdirp": "^0.5.1",
+    "path": "^0.12.7",
+    "stream-combiner2": "^1.1.1"
+  }
+}
